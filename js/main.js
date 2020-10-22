@@ -400,7 +400,7 @@
             ace.html.addClass('ace-desktop');
         }
     }
-
+	
     /* Init Header */
     function ace_header_init(head, col1, col2, col3) {
         var col1_w = col1.find('#ace-logo').width() + 15;
@@ -759,4 +759,9 @@
         });
     }
 })(jQuery);
+
+/*关闭弹窗*/
+function closePop(){
+    window.parent.location.reload();
+}
 
